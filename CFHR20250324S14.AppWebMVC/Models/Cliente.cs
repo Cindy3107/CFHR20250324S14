@@ -18,6 +18,6 @@ public partial class Cliente
     [Display(Name = "teléfono")]
 
     public string? Telefono { get; set; }
-
+    [Display(Name = "Email")]
     public string? Email { get; set; }
 }
